@@ -142,9 +142,6 @@ main> section{
   margin-bottom: 20px;
   border-radius: 8px;
 }
-.feature-info-section{
-    max-height: 982px;
-}
 
 #experience-badge{
   padding: 45px 42px;
@@ -232,6 +229,9 @@ footer p{
      .features{
       flex-direction: column;
      }
+     main section{
+      margin-top: 60px;
+     }
      .team-img-section, .facts-container, .sponsor-companies{
       grid-template-columns: repeat(1,1fr);
      }
@@ -247,14 +247,14 @@ footer p{
       margin: 0 20px;
 }
 .features-link{
-  gap: 20px;
+  gap: 30px;
 }
 #experience-badge{
   padding: 20px 20px;
   font-size: 1rem;
   font-weight: 500;
   margin-left:-100px;
-  margin-top: -12s0px;
+  margin-top: -120px;
 }
 #experience-year{
   font-size: 2rem;
@@ -262,7 +262,6 @@ footer p{
 }
 .featured-architect img{
   width:80%;
-  height: 100%;
  
   }
   .featured-architect{
@@ -276,7 +275,7 @@ footer p{
    padding: 10px;
 }
 .features{
-  gap: 340px;
+  gap: 40px;
 }
 }
 
